@@ -18,7 +18,7 @@ public class GildedRoseTest {
                         "Backstage passes to a TAFKAL80ETC concert",
                         "Sulfuras, Hand of Ragnaros"
         };
-        Integer[] sellIns = new Integer[]{-1,0,11};
+        Integer[] sellIns = new Integer[]{-1,0,2,6,11};
         Integer[] qualities= new Integer[]{0,1,49,50};
         CombinationApprovals.verifyAllCombinations(this::getUpdateItemResult,names,sellIns,qualities);
     }
